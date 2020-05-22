@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gravestone of Elizabeth Stone and Sarah Gee.</title>
+                <editor>S. Blackmore</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">Gravestone007</idno>
+                <date>1st May 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Penn, Buckinghamshire, England</settlement>
+                        <institution>Holy Trintiy Church</institution>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>This is a <material xml:id="Unknown">stone</material> <objectType>gravestone</objectType>
+                                        (<dimensions>
+                                            <width unit="cm" quantity="74">70 cm</width>
+                                            <height unit="cm" quantity="145">136 cm </height>
+                                            <depth unit="cm" quantity="8">9 cm</depth>
+                                        </dimensions>).</p>
+                                </support>
+                                <condition>This gravestone is in largely good condition, with all the text visible and legible, and the main problem is that the gravestone is dirty and has some moss coverage.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The text is <rs type="execution" key="carved">carved</rs> onto the gravestone and is centred on the top three quarters of the gravestone. There is a simple single line border and the field is the same as that of the gravestone of Edmund and Esther Grove (<idno type="URI">Gravestone001</idno>), which has a large rounded section at the top, with two smaller domes either side.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>The text varies in size, with the largest letters used for the names.
+                                     The word 'Sacred' again here uses a calligraphy style font, much like the gravestone of Elizabeth Fladgate.
+                                     There are also italics used when giving the age of the person at death, the relation between the occupants, as well as other information..
+                                     Much like before, where superscript has been used, the letters appears with a dot underneath.</summary>
+                            <handNote>The text is all capitals, although some are in italic font.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Churchyard of Holy Trinity Church, Penn</origPlace>
+                            <origDate type="century" xml:id="Nineteenth">19th Century, c. 1808</origDate>
+                        </origin>
+                        <provenance type="found">in situ in the Churchyard of Holy Trinity Church, Penn</provenance>
+                        <provenance type="observed"> Still in situ in <desc xml:id="G">Section G</desc> of the Churchyard of Holy Trinity Church, Penn, Buckinghamshire, England.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage><language ident="EN">English</language></langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="Gravestone 007.jpg">
+                <desc>Photograph of the gravestone of Elizabeth Stone and Sarah Gee by S. Blackmore 2020</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>SACRED
+                    <lb n="2"/>TO
+                    <lb n="3"/>THE MEMORY OF
+                    <lb n="4"/><persName xml:id="Elizabeth_Stone">MRS ELIZABETH STONE</persName>
+                    <lb n="5"/><desc>WHO DIED <date type="death" when="1794-08-12"><date xml:id="August">AUGUST</date> 12TH 1794</date></desc>
+                    <lb n="6"/><date type="age" subtype="death" dur="P67Y">AGED 67 YEARS</date>
+                    <lb n="7"/>ALSO OF
+                    <lb n="8"/><persName xml:id="Sarah_Gee">MRS SARAH GEE</persName>
+                    <lb n="9"/><listRelation><relation name="relict" xml:id="Relict"><desc>RELICT</desc></relation></listRelation> OF
+                    <lb n="10"/><persName xml:id="Benjamin_Gee">MR BENJAMIN GEE</persName>
+                    <lb n="11"/>OF <desc><location><settlement xml:id="Hendon">HENDON</settlement></location> IN <location><settlement xml:id="Middlesex">MIDDLESEX</settlement></location></desc>
+                    <lb n="12"/>AND <listRelation><relation name="sister" xml:id="Sister"><desc>SISTER</desc></relation></listRelation> TO
+                    <lb n="13"/><persName xml:id="Edmund_Grove">MR EDMUND GROVE</persName>
+                    <lb n="14"/><desc><location><settlement>OF THIS PARISH</settlement></location></desc>
+                    <lb n="15"/><desc>WHO DIED <date type="death" when="1808-03-20"><date xml:id="March">MARCH</date> 20TH 1808</date></desc>
+                    <lb n="16"/><date type="age" subtype="death" dur="P85Y">AGED 85 YEARS</date>
+                </ab>
+            </div>
+            <div type="translation">
+                <p>Sacred to the memory of Mrs. Elizatbeth Stone, who died August 17th 1794, aged 67 years.
+                   Also of Mrs. Sarah Gee, relict of Mr. Benjamin Gee of Hendon in Middlesex, and sister to Mr. Edmund Grove of this parish, who died March 20th 1808, aged 85 years.</p>
+            </div>
+            <div type="commentary">
+                <p>This nineteenth century gravestone lists the names of <num xml:id="Two">two</num> occupants, Mrs. Elizabeth Stone and Mrs. Sarah Gee. 
+                   While we are not told of the relationship between Elizabeth Stone and Sarah Gee, we are told that Sarah Gee is the widow of Benjamin Gee, who lived in Hendon in London, and the sister of Edmund Grove, who appears in <idno type="URI">Gravestone006</idno>, which explains her inhumation in this churchyard. 
+                   From the age and the date of death, we can calculate that Elizabeth Stone would have been born in c. 1727 and Sarah Gee would have been born in c. 1723. 
+                   Due to the family relation between Sarah Gee and Edmund Grove, this gravestone is located in the same block of graves within section G of the churchyard, being four graves along from <idno type="URI">Gravestone006</idno>.
+                   The expression 'Sacred to the memory of' is again used here, a phrase which is used commonly among other graves of this time within this churchyard.</p>
+            </div>
+            <div type="bibliography">
+                <p>N/A</p>
+            </div>
+        </body>
+    </text>
+</TEI>

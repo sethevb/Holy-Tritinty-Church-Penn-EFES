@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gravestone of Elizabeth Fladgate</title>
+                <editor>S. Blackmore</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">Gravestone002</idno>
+                <date>30th April 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Penn, Buckinghamshire, England</settlement>
+                        <institution>Holy Trintiy Church</institution>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>This is a <material xml:id="Limestone">stone (possibly limestone)</material> <objectType>gravestone</objectType>
+                                        (<dimensions>
+                                            <width unit="cm" quantity="74">73.2 cm</width>
+                                            <height unit="cm" quantity="145">147.4 cm </height>
+                                            <depth unit="cm" quantity="8">8.2 cm</depth>
+                                        </dimensions>).</p>
+                                </support>
+                                <condition>This gravestone is in good condition, all text visible and legible, however there is a small amount of moss at the top.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The text is <rs type="execution" key="carved">carved</rs> onto the gravestone and is centred on the top half of the gravestone. 
+                                        There is a thin border going around the edge of the entire gravestone. 
+                                        The top of the gravestone is largely decorative, with a collection of symmetrical curves, although the rest of the gravestone has a simple recangular form.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>The text varies in size, with the largest letters used for the name.</summary>
+                            <handNote>The text is all capitals. 
+                                      The words 'Sacred' and 'Memory' at the top of the gravestone are decorative, using a form of calligraphy.
+                                      The superscript 'R' in 'MR' and 'TH' in 'TH', have a dot underneath, emphasising that it is both superscript and a shortened word.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Churchyard of Holy Trinity Church, Penn</origPlace>
+                            <origDate type="century" xml:id="Nineteenth">19th Century, c. 1837</origDate>
+                        </origin>
+                        <provenance type="found">in situ in the Churchyard of Holy Trinity Church, Penn</provenance>
+                        <provenance type="observed"> Still in situ in <desc xml:id="A">Section A</desc> of the Churchyard of Holy Trinity Church, Penn, Buckinghamshire, England.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage><language ident="EN">English</language></langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="Gravestone 002.jpg">
+                <desc>Photograph of the gravestone of Elizabeth Fladgate by S. Blackmore 2020</desc>
+            </graphic>
+        </surface>    
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>SACRED
+                    <lb n="2"/>TO 
+                    <lb n="3"/>THE MEMORY OF
+                    <lb n="3"/><persName xml:id="Elizabeth_Fladgate">ELIZABETH</persName>, <listRelation><relation name="relict" xml:id="Relict"><desc>RELICT</desc></relation></listRelation> OF
+                    <lb n="4"/><persName xml:id="Robert_Leake_Fladgate">MR ROBERT LEAKE FLADGATE</persName>.
+                    <lb n="5"/>WHO DEPARTED THIS LIFE
+                    <lb n="6"/><date type="death" when="1837-09-05"><date xml:id="September">SEPTEMBER</date> 5TH 1837</date>.
+                    <lb n="7"/><date type="age" subtype="death" dur="P75Y">AGED 75 YEARS</date>.
+                </ab>
+            </div>
+            <div type="translation">
+                <p>Sacred to the memory of Elizabeth, relict of Mr. Robert Leake Fladgate, who departed this life September 5th 1937, aged 75 years.</p>
+            </div>
+            <div type="commentary">
+                <p>This nineteenth century gravestone contains <num xml:id="One">one</num> person and gives only their forename, as they are the relict (widow) of Mr. Robert Leake Fladgate, who is buried in the adjacent grave, and so we are to assume that Elizabeth also takes the surname 'Fladgate'.
+                   From the age and the date of death, we can calculate that Elizabeth would have been born c. 1762.
+                   Its location directly outside the entrance to the church, much like the grave of James and Martha Jarvis, suggests a certain level of status within the community, with it being place near the prominent family tombs.
+                   The expression 'Sacred to the memory of' is a phrase which is used again here and is commonly used among other graves of this time within this churchyard.
+                   There is a large space under the age, separated by a line, suggested that room may have been left on the tombstone in order to be able to add another name on should another person be added to the grave.</p>
+            </div>
+            <div type="bibliography">
+                <p>N/A</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list for mentioned places</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <head>Names of places mentioned</head>
+                <place xml:id="Hendon">
+                    <placeName xml:lang="en">Hendon</placeName>
+                </place>
+                <place xml:id="Middlesex">
+                    <placeName xml:lang="en">Middlesex</placeName>
+                </place>
+                <place xml:id="Hazebrouek">
+                    <placeName xml:lang="en">Hazebrouek</placeName>
+                </place> 
+                <place xml:id="Cairo">
+                    <placeName xml:lang="en">Cairo</placeName>
+                </place>
+                <place xml:id="Egypt">
+                    <placeName xml:lang="en">Egypt</placeName>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

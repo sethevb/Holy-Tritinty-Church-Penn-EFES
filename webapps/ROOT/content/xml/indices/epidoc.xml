@@ -15,7 +15,88 @@
   </teiHeader>
   <text>
     <body>
-      <div xml:id="symbol">
+      
+      <div xml:id="century">
+        <head>Century of Gravestones</head>
+        <div type="headings">
+          <list>
+            <item>Century</item>
+            <item>Gravestones</item>
+          </list>
+        </div>
+      </div>
+
+      <div xml:id="section">
+        <head>Section within the Churchyard</head>
+        <div type="headings">
+          <list>
+            <item>Section</item>
+            <item>Gravestones</item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="material">
+        <head>Material</head>
+        <div type="headings">
+          <list>
+            <item>Material</item>
+            <item>Gravestones</item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="places">
+        <head>Places Mentioned</head>
+        <div type="headings">
+          <list>
+            <item>Places Mentioned</item>
+            <item>Gravestones</item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="occupants">
+        <head>Number of Occupants</head>
+        <div type="headings">
+          <list>
+            <item>Number of Occupants</item>
+            <item>Gravestones</item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="months">
+        <head>Months of Death</head>
+        <div type="headings">
+          <list>
+            <item>Months (in alphabetical order)</item>
+            <item>Gravestones</item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="names">
+        <head>Names Mentioned in Gravestones</head>
+        <div type="headings">
+          <list>
+            <item>Names (in alphabetical order)</item>
+            <item>Gravestones</item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="relationships">
+        <head>Relationships Mentioned in Gravestones</head>
+        <div type="headings">
+          <list>
+            <item>Relationships</item>
+            <item>Gravestones</item>
+          </list>
+        </div>
+      </div>
+      
+      <!--<div xml:id="symbol">
         <head>Symbols</head>
 
         <div type="notes">
@@ -25,9 +106,9 @@
             </item>
           </list>
         </div>
-      </div>
-
-      <div xml:id="abbreviation">
+      </div>-->
+      
+      <!--<div xml:id="abbreviation">
         <head>Abbreviations</head>
 
         <div type="headings">
@@ -45,9 +126,9 @@
             </item>
           </list>
         </div>
-      </div>
+      </div>-->
 
-      <div xml:id="fragment">
+      <!--<div xml:id="fragment">
         <head>Fragments</head>
 
         <div type="headings">
@@ -65,9 +146,9 @@
             </item>
           </list>
         </div>
-      </div>
+      </div>-->
 
-      <div xml:id="numeral">
+      <!--<div xml:id="numeral">
         <head>Numerals</head>
 
         <div type="headings">
@@ -85,9 +166,9 @@
             </item>
           </list>
         </div>
-      </div>
+      </div>-->
 
-      <div xml:id="word">
+      <!--<div xml:id="word">
         <head>Words</head>
 
         <div type="headings">
@@ -105,9 +186,9 @@
             </item>
           </list>
         </div>
-      </div>
+      </div>-->
 
-      <div xml:id="lemma">
+      <!--<div xml:id="lemma">
         <head>Lemmata</head>
 
         <div type="headings">
@@ -125,9 +206,9 @@
             </item>
           </list>
         </div>
-      </div>
+      </div>-->
 
-      <div xml:id="person_name">
+      <!--<div xml:id="person_name">
         <head>Personal Names</head>
 
         <div type="headings">
@@ -144,9 +225,9 @@
             </item>
           </list>
         </div>
-      </div>
+      </div>-->
       
-      <div xml:id="prosopography">
+      <!--<div xml:id="prosopography">
         <head>Prosopography</head>
         <div type="headings">
           <list>
@@ -157,9 +238,9 @@
         <div type="notes">
           <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
         </div>
-      </div>
+      </div>-->
       
-      <div xml:id="divine">
+      <!--<div xml:id="divine">
         <head>Divinities</head>
         <div type="headings">
           <list>
@@ -170,9 +251,9 @@
         <div type="notes">
           <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
         </div> 
-      </div>
+      </div>-->
       
-      <div xml:id="mentioned_places">
+      <!--<div xml:id="mentioned_places">
         <head>Toponyms</head>
         <div type="headings">
           <list>
@@ -184,9 +265,9 @@
         <div type="notes">
           <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
         </div>
-      </div>
+      </div>-->
       
-      <div xml:id="institutions">
+      <!--<div xml:id="institutions">
         <head>Institutions</head>
         <div type="headings">
           <list>
@@ -199,7 +280,7 @@
         <div type="notes">
           <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
         </div>
-      </div>
+      </div>-->
     </body>
   </text>
 </TEI>

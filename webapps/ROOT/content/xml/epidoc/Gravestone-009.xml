@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gravestone of Russell George Roche and Elizabeth Mary Roche</title>
+                <editor>S. Blackmore</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">Gravestone009</idno>
+                <date>1st May 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Penn, Buckinghamshire, England</settlement>
+                        <institution>Holy Trintiy Church</institution>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>This is a <material xml:id="Limestone">stone (possibly limestone)</material> <objectType>gravestone</objectType>
+                                        (<dimensions>
+                                            <width unit="cm" quantity="74">76.8 cm</width>
+                                            <height unit="cm" quantity="145">55.9 cm </height>
+                                            <depth unit="cm" quantity="8">7.7 cm</depth>
+                                        </dimensions>).</p>
+                                </support>
+                                <condition>Good condition, all text visible and legible, with a small amount of dirt and moss on the top</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The text is <rs type="execution" key="carved">carved</rs> onto the gravestone and is centred on the gravestone, taking up the entirety of the inscribed field.
+                                        There is no border and the field has a simple rectangle shape with a rounded top.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>The text varies in size, with the largest letters used for the names.</summary>
+                            <handNote>The text is capitals for the names and lower case for the birth and death dates.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Churchyard of Holy Trinity Church, Penn</origPlace>
+                            <origDate type="century" xml:id="Twenty-First">21st Century, c. 2015</origDate>
+                        </origin>
+                        <provenance type="found">in situ in the Churchyard of Holy Trinity Church, Penn</provenance>
+                        <provenance type="observed"> Still in situ in the <desc xml:id="Vineyard">Vineyard</desc> (Plot number 39A) of the Churchyard of Holy Trinity Church, Penn, Buckinghamshire, England.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage><language ident="EN">English</language></langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="Gravestone 009.jpg">
+                <desc>Photograph of the gravestone of Russell George and Elizabeth Mary Roche by S. Blackmore 2020</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><persName xml:id="Russell_George_Roche">RUSSELL GEORGE
+                    <lb n="2"/>ROCHE</persName>
+                    <lb n="3"/><desc>Born <date type="birth" when="1936-10-26">26 <date xml:id="October">October</date> 1936</date></desc>
+                    <lb n="4"/><desc>Died <date type="death" when="2012-08-08">8 <date xml:id="August">August</date> 2012</date></desc>
+                    <lb n="5"/><persName xml:id="Elizabeth_Mary_Roche">ELIZABETH MARY
+                    <lb n="6"/>ROCHE</persName>
+                    <lb n="7"/><desc>Born <date type="birth" when="1931-04-25">25 <date xml:id="April">April</date> 1931</date></desc>
+                    <lb n="8"/><desc>Died <date type="death" when="2015-07-20">20 <date xml:id="July">July</date> 2015</date></desc>
+                </ab>
+            </div>
+            <div type="translation">
+                <p>Russel George Roche, born 26 October 1936, died 8 August 2012.
+                   Elizabeth Mary Roche, born 25 April 1931, died 20 July 2015.</p>
+            </div>
+            <div type="commentary">
+                <p>This twenty-first century gravestone lists the names of <num xml:id="Two">two</num> occupants, Russell George Roche and Elizabeth Mary Roche.
+                   This is a simple gravestone, with the only information given being names and dates of birth and death.
+                   The providing of specific dates does however allow us to accurately calculate the age of Russell as 75 and Elizabeth as 84.
+                   We are not explicitly told the relationship between the two, however the fact that they were husband and wife is a fair assumption.
+                   This grave is located in a separate section in the graveyard, labelled the Vineyard (plot number 39A), which contains mainly twenty-first century gravestones.</p>
+            </div>
+            <div type="bibliography">
+                <p>N/A</p>
+            </div>
+        </body>
+    </text>
+</TEI>

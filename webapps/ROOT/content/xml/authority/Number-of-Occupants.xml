@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Number of Occupants in Grave</title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt> 
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item xml:id="One">
+                    <term xml:lang="en">One</term>
+                </item>
+                <item xml:id="Two">
+                    <term xml:lang="en">Two</term>
+                </item>
+                <item xml:id="Three">
+                    <term xml:lang="en">Three</term>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

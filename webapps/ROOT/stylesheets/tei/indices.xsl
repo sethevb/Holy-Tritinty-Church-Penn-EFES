@@ -43,6 +43,7 @@
       <xsl:apply-templates select="str[@name='index_institution_type']" />
       <xsl:apply-templates select="str[@name='index_institution_role']" />
       <xsl:apply-templates select="str[@name='index_ethnic']" />
+      <xsl:apply-templates select="str[@name='index_century']" />
       <xsl:apply-templates select="arr[@name='index_instance_location']" />
     </tr>
   </xsl:template>
@@ -54,6 +55,54 @@
         <xsl:apply-templates select="doc"><xsl:sort select="translate(normalize-unicode(lower-case(.),'NFD'), '&#x0300;&#x0301;&#x0308;&#x0303;&#x0304;&#x0313;&#x0314;&#x0345;&#x0342;' ,'')"/></xsl:apply-templates>
       </tbody>
     </table>
+  </xsl:template>
+
+  <xsl:template match="str[@name='index_century']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_section']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_material']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_places']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_occupants']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_months']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_names']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_relationships']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
   </xsl:template>
 
   <xsl:template match="str[@name='index_abbreviation_expansion']">

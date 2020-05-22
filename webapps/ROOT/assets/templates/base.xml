@@ -44,7 +44,7 @@
               <kiln:block name="main-navigation">
                 <ul class="title-area">
                   <li class="name">
-                    <h1><a href="{kiln:url-for-match('local-language-home-page', ($language), 0)}">EFES</a></h1>
+                    <h1><a href="{kiln:url-for-match('local-language-home-page', ($language), 0)}">Home</a></h1>
                   </li>
                   <li class="toggle-topbar menu-icon">
                     <a href="#"><span>Menu</span></a>
@@ -75,6 +75,11 @@
                 </h1>
               </div>
             </div>
+          </kiln:block>
+          <kiln:block name="section">
+            <main>
+                 <kiln:block name="image" />
+            </main>
           </kiln:block>
           <kiln:block name="content-section">
             <main>

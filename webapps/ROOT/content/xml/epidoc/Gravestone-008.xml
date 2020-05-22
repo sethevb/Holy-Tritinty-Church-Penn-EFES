@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gravestone of Molly Preston and Martin Sansome Preston</title>
+                <editor>S. Blackmore</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">Gravestone008</idno>
+                <date>1st May 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Penn, Buckinghamshire, England</settlement>
+                        <institution>Holy Trintiy Church</institution>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>This is a <material xml:id="Limestone">stone (possibly limestone)</material> <objectType>gravestone</objectType>
+                                        (<dimensions>
+                                            <width unit="cm" quantity="74">70 cm</width>
+                                            <height unit="cm" quantity="145">104 cm </height>
+                                            <depth unit="cm" quantity="8">11 cm</depth>
+                                        </dimensions>).</p>
+                                </support>
+                                <condition>This gravestone is in good condition, with all text visible and legible, and the only problem being dirt.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The text is <rs type="execution" key="carved">carved</rs> onto the gravestone and is centred on the gravestone, taking up the entire inscribed field.
+                                        There is no border, however there is a decorative celtic cross inscribed into the top of the gravestone in the centre, acting as a centrepiece.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>The text is a largely uniform size, although the largest letters are reserved for that of the name of Molly Preston.</summary>
+                            <handNote>The text is all capitals.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Churchyard of Holy Trinity Church, Penn</origPlace>
+                            <origDate type="century" xml:id="Twentieth">20th Century, c. 1949</origDate>
+                        </origin>
+                        <provenance type="found">in situ in the Churchyard of Holy Trinity Church, Penn</provenance>
+                        <provenance type="observed"> Still in situ in <desc xml:id="G">Section G</desc> of the Churchyard of Holy Trinity Church, Penn, Buckinghamshire, England.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage><language ident="EN">English</language></langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="Gravestone 008.jpg">
+                <desc>Photograph of the gravestone of Molly and Martin Sansome Preston by S. Blackmore 2020</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>IN FOND MEMORY OF
+                    <lb n="2"/><persName xml:id="Molly_Preston">MOLLY PRESTON</persName>
+                    <lb n="3"/><listRelation><relation name="wife" xml:id="Wife"><desc>BELOVED WIFE OF</desc></relation></listRelation>
+                    <lb n="4"/><persName xml:id="Arthur_Sansome_Preston">ARTHUR SANSOME PRESTON</persName>
+                    <lb n="5"/><desc>OF <location><settlement xml:id="Cairo">CAIRO</settlement> <settlement xml:id="Egypt">EGYPT</settlement></location></desc>
+                    <lb n="6"/>AND OF <listRelation><relation name="son" xml:id="Son"><desc>THEIR SON</desc></relation></listRelation>
+                    <lb n="7"/><persName xml:id="Martin_Sansome_Preston">MARTIN SANSOME PRESTON</persName>
+                    <lb n="8"/><desc>KILLED <location><settlement xml:id="Hazebrouek">HAZEBROUEK</settlement></location> <date type="death" when-custom="1940">1940</date></desc>
+                    <lb n="9"/><desc>DECEASED <date type="death" when="1949-02-13">13 <date xml:id="February">FEB</date> 1949</date></desc>.
+                    <lb n="10"/>REST IN PEACE
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Shortened months have been given in their full forms in the 'translation'</p>
+            </div>
+            <div type="translation">
+                <p>In fond memory of Molly Preston, beloved wife of Arthur Sansome Preston of Cairo, Egypt, and of their son Martin Sansome Preston, killed Hazebrouek 1940, deceased 13th February 1949.
+                   Rest in peace.</p>
+            </div>
+            <div type="commentary">
+                <p>This twentieth century gravestone lists the names of <num xml:id="Two">two</num> occupants, Molly Preston and her son, Martin Sansome Preston.
+                   The reading of this stone is difficult at first, as one only learns the death date of Molly Preston at the bottom of the stone, after being told of the death date of her son.
+                   The inclusion of the husband in this structure also makes it seem as if he is also an occupant in the grave, although this doesn't appear to be the case upon further reading.
+                   We are told that Martin Sansome Preston was killed, presumably in battle in the Second World War, in a place called Hazebrouek in 1940.
+                   It is likely that he would have died in the French town of Hazebrouck, as this had a frontier in 1940 and Hazebrouek did not.
+                   The reason for the difference cannot be certain however, whether this was the name of the town in the Second World War, or whether this is simply an error by the stonemason.
+                   While on all of the other gravestone, we have been able to use information on the gravestone to approximate missing values, such as year of birth or age, this gravestone is strange for the reason that only the dates of death are supplied, meaning that neither age nor year of birth can be calculated.
+                   The word deceased is an interesting choice, where other gravestones list their occupants as having died or departed, this gravestone seems to take a much more clinical approach to death.
+                   This is also the only grave in this collection with the formula 'Rest in peace'.</p>
+            </div>
+            <div type="bibliography">
+                <p>Wikipedia (2020), 'Hazebrouck', https://en.wikipedia.org/wiki/Hazebrouck (accessed 1st May 2020).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

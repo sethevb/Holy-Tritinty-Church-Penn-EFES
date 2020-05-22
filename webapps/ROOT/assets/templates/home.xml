@@ -10,7 +10,7 @@
 
   <kiln:child>
     <kiln:block name="title">
-      <i18n:text>home-title</i18n:text>
+      <i18n:text>Home</i18n:text>
     </kiln:block>
 
     <kiln:block name="page-header">
@@ -18,56 +18,62 @@
         <div class="large-12 columns text-center">
           <h1>
             <span class="round label">
-              <i18n:text i18n:key="home-title">Welcome to EFES!</i18n:text>
+              <i18n:text i18n:key="home-title">The Churchyard of Holy Trinity Church, Penn</i18n:text>
             </span>
           </h1>
         </div>
       </div>
     </kiln:block>
+    
+    <kiln:block name="section">
+      <main>
+        <div class="row">
+           <kiln:block name="image">
+             <img src="{$kiln:assets-path}/images/Church-front.jpg" alt="Photograph of Holy Trinity Church, Penn">
+                <desc>Photograph of Holy Trinity Church, Penn. S. Blackmore 2020</desc>
+             </img>
+           </kiln:block>
+          <h1/>
+        </div>
+      </main>
+    </kiln:block>
 
     <kiln:block name="content-section">
       <main>
         <div class="row">
-          <div class="small-6 large-centered columns">
-            <p>Now that you have EFES up and running, it's time to
-            start building your project. Start with one of the options
-            listed below and go from there.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 columns">
-            <div class="panel radius">
-              <p><strong>Add your files</strong></p>
-
-              <p>Put your EpiDoc XML files in webapps/ROOT/content/xml/epidoc and go to the <a
-              href="{kiln:url-for-match('local-admin-home-page', (), 0)}">admin</a> and index them for searching. Then see how
-              they are displayed
-              
-              (<a
-              href="{kiln:url-for-match('local-epidoc-index-display', ($language), 0)}">Inscriptions</a>).</p>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <div class="panel radius">
-              <p><strong>Customise the templates</strong></p>
-
-              <p>Change the look of this site by modifying the templates
-              in webapps/ROOT/assets/templates. The template for this
-              page is home.xml, and it builds on the base template
-              base.xml.</p>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <div class="panel radius">
-              <p><strong>Read the documentation</strong></p>
-
-              <p>The documentation and User Guide for  
-                EFES can be found on the project's <a href="https://github.com/EpiDoc/EFES/wiki/">GitHub Wiki pages</a>. 
-                Documentation for Kiln, the platform that EFES is based on, can be found both <a
-                  href="http://kiln.readthedocs.org/en/latest/">online</a>, and in source form, in the docs directory of your
-              installation. It explains how you can modify everything
-              about your project.</p>
-            </div>
+          <div>
+            <p>Here you can find a searchable database of a small selection of the gravestones located within the churchyard of Holy Trinity Penn.
+               Please have a look around the site and have fun searching!</p>
+            <h1/>
+            <p>Holy Trinity is a church with a long history, dating back to the latter half of the 12th century.
+               The nave and font both date from the latter part of the 12th century, with the first mention of a priest in the area being 1183, with one vicar in 1797 claiming that he had seen a foundation stone under the chancel displaying the date 1177 during the digging of tombs for the Howe and Curzon families.
+               There have also been artefacts found within the church from this time period too.</p>
+            <h1/>
+            <p>The next major construction programme took place in the early 14th century, which saw the building of the tower, seen on the right in the photograph, which contained four bells, and within the church, the south aisle and Lady Chapel.</p>
+            <h1/>
+            <p>Until the establishment of the Anglican Church by Henry VIII, Holy Trinity was a Catholic church, seen by the medieval paintings found on the walls, including the famous Penn Doom, a 15th century painting which still remains displayed in the church, although it has been on a tour of museums, including the V&amp;A.
+               This establishment of the Anglican church also saw the change in ownership of the church, as well as the right to appoint the vicar, which was granted to the ancestors of the current Earl Howe, who still holds these powers. 
+               The church fell into disrepair however during the Protestant Reformation.</p>
+            <h1/>
+            <p>The 18th century saw a number of additions and restorations. 
+               The one-handed clock seen in the photograph on the front of the tower was added in 1702 by a vicar, as well as the installation of five new bells in the tower, replacing the old ones from the 14th century.
+               The roof, chancel and Lady Chapel had to be rebuilt in 1731, following a large fire in 1731.
+               This century also saw the building of vaults for the coffins of the grandsons of William Penn, the Quaker who founded Pennsylvania, who assumed that he was related to the owners of the church, as well as the aforementioned tombs under the chancel.</p>
+            <h1/>
+            <p>A number of restorations also took place in 1865, with the aim to restore the church to its Medieval form.
+               The east wall was rebuilt and a large pulpit and two galleries from the 18th century were removed.</p>
+            <h1/>
+            <p>Since the beginning of the 20th century to the present day, a number of decorative additions were made to the church.
+               The painted windows have been inspired by the two World Wars, as well as a glass screen to commemmorate the relationship with William Penn.
+               The flooring, which contained Medieval Penn tiles, which were also made for buildings such as Windsor Castle, was replaced by marble and the render from the outside of the church was removed to show the patterns of brick and flint, displaying the building and rebuilding of the church over the centuries.
+               The five bells in the tower were refurbished and a sixth one, the treble bell, was added in 1919, with three of those 18th century bells still making up the current ring of six.
+               It was the 20th century which also saw the accidental discovery of the 15th century Penn Doom in the roof.
+               The latest addition, taking place this century, is a window celebrating the Octocentenary of the continuous Christian service of the church over the last 800 years.</p>
+            <h1/>
+            <p>All of the above information about the church was researched and compiled by Miles Green, a local historian and current chairman of the Residents' Society, who has written a number of books and made much information available about this church, other local churches, and the local area.
+               Without his time, research, and efforts in general, much less would be known about this magnificent old church.</p>
+            <h1/>
+            <p>Bibliography: Green, M. (2011) 'Monuments and Memorials: No. 21: The Church Bells', https://www.pennchurch.uk/21-monuments/ (accessed 3rd May 2020); Green, M. (2016) 'A Brief History of Penn Church in Buckinghamshire', https://www.pennchurch.uk/history/ (accessed 3rd May 2020).</p>
           </div>
         </div>
       </main>

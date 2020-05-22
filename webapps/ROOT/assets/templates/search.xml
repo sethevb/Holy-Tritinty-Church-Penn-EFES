@@ -46,7 +46,7 @@
                 <xsl:value-of select="$q_value" />
               </xsl:attribute>
             </input>
-            <xsl:if test="$search-lemma">
+            <!--<xsl:if test="$search-lemma">
               <label>
                 <input name="df" type="checkbox" value="lemmatised_text">
                   <xsl:if test="$df_value = 'lemmatised_text'">
@@ -55,9 +55,9 @@
                 </input>
                 <xsl:text>Search lemmatised text</xsl:text>
               </label>
-            </xsl:if>
-            <h4>Date <span id="date-slider-label"></span></h4>
-            <div id="date-slider-widget" data-range-min="-500" data-range-max="1600" data-value-min="-200" data-value-max="1400" data-step="25" data-label-prefix="" data-label-suffix="A.D." data-field-name="origin_date" />
+            </xsl:if>-->
+            <!--<h4>Date <span id="date-slider-label"></span></h4>
+            <div id="date-slider-widget" data-range-min="1500" data-range-max="2050" data-value-min="1800" data-value-max="2000" data-step="25" data-label-prefix="" data-label-suffix="" data-field-name="origin_date" />-->
           </form>
           <!-- List of currently applied facets. -->
           <xsl:apply-templates mode="search-results" select="/aggregation/response/lst[@name='responseHeader']/lst[@name='params']/*[@name='fq']" />

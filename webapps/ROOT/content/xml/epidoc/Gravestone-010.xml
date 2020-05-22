@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gravestone of George Leo Callewaert</title>
+                <editor>S. Blackmore</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">Gravestone010</idno>
+                <date>1st May 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Penn, Buckinghamshire, England</settlement>
+                        <institution>Holy Trintiy Church</institution>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>This is a <material xml:id="Unknown">stone</material> <objectType>gravestone</objectType>
+                                        (<dimensions>
+                                            <width unit="cm" quantity="74">88 cm</width>
+                                            <height unit="cm" quantity="145">51.3 cm </height>
+                                            <depth unit="cm" quantity="8">8.4 cm</depth>
+                                        </dimensions>).</p>
+                                </support>
+                                <condition>Good condition, all text visible and legible, with no dirt on the gravestone</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The text is <rs type="execution" key="carved">carved</rs> onto the gravestone, centred on the entire field. 
+                                        There is no border and the gravestone has a simple rectangle shape with a rounded top.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>The text varies in size, with the largest letters used for the names.</summary>
+                            <handNote>The text is all capitals, however Roman numerals are used for the months and the latin phrase appears in italics.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Churchyard of Holy Trinity Church, Penn</origPlace>
+                            <origDate type="century" xml:id="Twenty-First">21st Century, c. 2006</origDate>
+                        </origin>
+                        <provenance type="found">in situ in the Churchyard of Holy Trinity Church, Penn</provenance>
+                        <provenance type="observed"> Still in situ in the <desc xml:id="Vineyard">Vineyard</desc> (Plot number 122) of the Churchyard of Holy Trinity Church, Penn, Buckinghamshire, England.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage><language ident="EN">English</language></langUsage>
+            <langUsage><language ident="LA">Latin</language></langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="Gravestone 010.jpg">
+                <desc>Photograph of the gravestone of George Leo Callewaert by S. Blackmore 2020</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><persName xml:id="George_Leo_Callewaert">GEORGE
+                    <lb n="2"/>LEO
+                    <lb n="3"/>CALLEWAERT</persName>
+                    <lb n="4"/><date type="birth" when="1942-08-10">10.<date xml:id="August">VIII</date>.1942</date>
+                    <lb n="5"/><date type="death" when="2006-09-11">11.<date xml:id="September">IX</date>.2006</date>
+                    <lb n="6"/>VIR SAGAX BENEVOLUSQUE
+                </ab>
+            </div>
+            <div type="translation">
+                <p>George Leo Callewaert. 
+                   10.VIII.1942.
+                   11.IX.2006.
+                   Vir sagax benevolusque.</p>
+            </div>
+            <div type="commentary">
+                <p>This twenty-first century gravestone lists the names of <num xml:id="One">one</num> person, George Leo Callewaert. 
+                   The dating on this grave is interesting for two reasons.
+                   The first is that is certainly the only grave in this collection, and possibly the only gravestone in the churchyard, which uses the short form of dating, giving the number of the month.
+                   The second interesting point is that this month is given as a Roman numeral, mixing Roman numerals and Arabic numbers in the dating.
+                   From the date of birth and date of death, we can however calculate that George died at the age of 64.
+                   This is also the only gravestone in this collection to use a language other than English, using a sentence of Latin here, which can be translated to mean 'A wise and benevolent man'.
+                   This gravestone is located in a separate section at the back of the churchyard, named the vineyard (Plot number 122), which contains mainly graves from the late twentieth or twenty-first century, as well as memorial benches, memorial stones, and a war memorial.</p>
+            </div>
+            <div type="bibliography">
+                <p>N/A</p>
+            </div>
+        </body>
+    </text>
+</TEI>

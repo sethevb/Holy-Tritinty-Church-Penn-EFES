@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gravestone of Theophilus George Ayres and Eliza Ayres</title>
+                <editor>S. Blackmore</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">Gravestone004</idno>
+                <date>30th April 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Penn, Buckinghamshire, England</settlement>
+                        <institution>Holy Trintiy Church</institution>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>This is a <material xml:id="Granite">stone (possibly granite)</material> <objectType>gravestone</objectType>
+                                        (<dimensions>
+                                            <width unit="cm" quantity="74">93 cm</width>
+                                            <height unit="cm" quantity="145">57 cm </height>
+                                            <depth unit="cm" quantity="8">15 cm</depth>
+                                        </dimensions>).</p>
+                                </support>
+                                <condition>Good condition, all text visible and legible due to the mounting of metal letters</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The text is comprised of <rs type="execution" key="formed">formed</rs> metal letters which have been attached onto the gravestone.
+                                        The text takes up the whole of the field and is centred between two structured which imitate obelisks. 
+                                        The field itself, instead of a rounded top, has a pointed top.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>The text varies in size and, with most gravestones in the churchyard, the largest letters areused for the names.</summary>
+                            <handNote>The text is all capitals.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Churchyard of Holy Trinity Church, Penn</origPlace>
+                            <origDate type="century" xml:id="Twentieth">20th Century, c. 1950</origDate>
+                        </origin>
+                        <provenance type="found">in situ in the Churchyard of Holy Trinity Church, Penn</provenance>
+                        <provenance type="observed"> Still in situ in <desc xml:id="F">Section F</desc> of the Churchyard of Holy Trinity Church, Penn, Buckinghamshire, England.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage><language ident="EN">English</language></langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="Gravestone 004.jpg">
+                <desc>Photograph of the gravestone of Theophilus and Eliza Ayres by S. Blackmore 2020</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>IN
+                    <lb n="2"/>MEMORY OF
+                    <lb n="3"/><listRelation><relation name="husband" xml:id="Husband"><desc>MY DEAR HUSBAND</desc></relation></listRelation>
+                    <lb n="4"/><persName xml:id="Theophilus_George_Ayres">THEOPHILUS GEORGE AYRES</persName>
+                    <lb n="5"/><desc>WHO DIED <date type="death" when="1935-07-30"><date xml:id="July">JULY</date> 30TH 1935</date></desc>, <date type="age" subtype="death" dur="P80Y">AGED 80 YEARS</date>
+                    <lb n="6"/>ALSO OF
+                    <lb n="7"/><persName xml:id="Eliza_Ayres">ELIZA AYRES</persName>
+                    <lb n="8"/><listRelation><relation name="wife" xml:id="Wife"><desc>WIFE OF THE ABOVE</desc></relation></listRelation>
+                    <lb n="9"/><desc>WHO DIED <date type="death" when="1950-12-16"><date xml:id="December">DECEMBER</date> 16TH 1950</date></desc>
+                    <lb n="10"/><date type="age" subtype="death" dur="P94Y">AGED 94 YEARS</date>
+                </ab>
+            </div>
+            <div type="translation">
+                <p>In memory of my dead husband, Theophilus George Ayres, who died July 30th 1935, aged 80 years.
+                   Also of Eliza Ayres, wife of the above, who died December 16th 1950, aged 94 years.</p>
+            </div>
+            <div type="commentary">
+                <p>This twentieth century gravestone lists the names of <num xml:id="Two">two</num> occupants, Theophilus George Ayres and Eliza Ayres. 
+                   From the age and the date of death, we can calculate that Theophilus George Ayres would have been born c. 1855 and Eliza Ayres would have been born c. 1856.
+                   Its location within the churchyard is at the back of the church, three rows of graves back from the entrance to the belfry.</p>
+            </div>
+            <div type="bibliography">
+                <p>N/A</p>
+            </div>
+        </body>
+    </text>
+</TEI>

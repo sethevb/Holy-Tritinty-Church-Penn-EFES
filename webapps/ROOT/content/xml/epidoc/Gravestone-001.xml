@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gravestone of James and Martha Jarvis</title>
+                <editor>S. Blackmore</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">Gravestone001</idno>
+                <date>30th April 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Penn, Buckinghamshire, England</settlement>
+                        <institution>Holy Trintiy Church</institution>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>This is a <material xml:id="Sandstone">stone (possibly sandstone)</material> <objectType>gravestone</objectType>
+                                        (<dimensions>
+                                            <width unit="cm" quantity="74">74 cm</width>
+                                            <height unit="cm" quantity="145">145 cm </height>
+                                            <depth unit="cm" quantity="8">8 cm</depth>
+                                        </dimensions>).</p>
+                                </support>
+                                <condition>Good condition, all text visible and legible</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The text is <rs type="execution" key="carved">carved</rs> onto the gravestone and is centred on the top two thirds of the gravestone. 
+                                        There is no border and the field has a simple rectangle shape with a rounded top.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>The text varies in size, with the largest letters used for the names.</summary>
+                            <handNote>The text is all capitals.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Churchyard of Holy Trinity Church, Penn</origPlace>
+                            <origDate type="century" xml:id="Nineteenth">19th Century, c. 1826</origDate>
+                        </origin>
+                        <provenance type="found">in situ in the Churchyard of Holy Trinity Church, Penn</provenance>
+                        <provenance type="observed"> Still in situ in <desc xml:id="A">Section A</desc> of the Churchyard of Holy Trinity Church, Penn, Buckinghamshire, England.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage><language ident="EN">English</language></langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="Gravestone 001.jpg">
+                <desc>Photograph of the gravestone of James Jarvis and Martha Jarvis by S. Blackmore 2020</desc>
+            </graphic>
+        </surface>    
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>SACRED
+                    <lb n="2"/>TO THE MEMORY OF
+                    <lb n="3"/><persName xml:id="James_Jarvis">JAMES JARVIS</persName>
+                    <lb n="4"/><desc><location><settlement>OF THIS PARISH</settlement></location></desc>
+                    <lb n="5"/><roleName role="Baker">BAKER</roleName>
+                    <lb n="6"/><desc>DIED <date type="death" when="1826-05-18"><date xml:id="May">MAY</date> THE 18TH 1826</date></desc>.
+                    <lb n="7"/><date type="age" subtype="death" dur="P58Y">AGED 58 YEARS</date>.
+                    <lb n="8"/>ALSO
+                    <lb n="9"/><persName xml:id="Martha_Jarvis">MARTHA</persName>.
+                    <lb n="10"/><listRelation><relation name="wife" xml:id="Wife"><desc>HIS WIFE</desc></relation></listRelation>.
+                    <lb n="11"/><desc>DIED <date type="death" when="1825-11-03"><date xml:id="November">NOVR</date>. THE 3RD 1825</date></desc>.
+                    <lb n="12"/><date type="age" subtype="death" dur="P65Y">AGED 65 YEARS</date>.
+                    <lb n="13"/>SHALT NOT THE JUDGE OF ALL THE EARTH
+                    <lb n="14"/>DO RIGHT.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>Shortened months have been given in their full forms in the 'translation'</p>
+            </div>
+            <div type="translation">
+                <p>Sacred to the memory of James Jarvis of this parish, baker. Died May the 18th 1826, aged 58 years. 
+                   Also Martha, his wife, died November the 3rd 1825, aged 65 years.
+                   Shalt not the judge of all the Earth do right.</p>
+            </div>
+            <div type="commentary">
+                <p>This nineteenth century gravestone lists the names of <num xml:id="Two">two</num> occupants, a James Jarvis and his wife Martha, also presumably taking the surname Jarvis. 
+                   James Jarvis was a baker in the parish. 
+                   From the age and the date of death, we can calculate that James Jarvis would have been born c. 1768 and Martha would have been born c. 1758. 
+                   Its location directly outside the entrance to the church suggests a certain level of status within the community, with it being place near the prominent family tombs.
+                   The expression 'Sacred to the memory of' is a phrase which is used commonly among other graves of this time within this churchyard.
+                   The phrase which ends the text on the tombstone in lines 13-14 is a direct quote from Genesis 18:25.</p>
+            </div>
+            <div type="bibliography">
+                <p>N/A</p>
+            </div>
+        </body>
+    </text>
+</TEI>

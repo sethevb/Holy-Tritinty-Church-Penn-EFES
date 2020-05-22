@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of names mentioned in gravestones</title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <head xml:lang="en">Male Names</head>
+                <person xml:id="James_Jarvis">
+                    <persName xml:lang="en">James Jarvis</persName>
+                    <floruit>c. 1768-1826</floruit>
+                </person>
+                <person xml:id="Robert_Leake_Fladgate">
+                    <persName xml:lang="en">Robert Leake Fladgate</persName>
+                </person>
+                <person xml:id="F.J._Gibbs">
+                    <persName xml:lang="en">F. J. Gibbs</persName>
+                    <floruit>c. 1892-1919</floruit>
+                </person>
+                <person xml:id="Theophilus_George_Ayres">
+                    <persName xml:lang="en">Theophilus George Ayres</persName>
+                    <floruit>c. 1855-1935</floruit>
+                </person>
+                <person xml:id="Donald_Mowbray_Waite">
+                    <persName xml:lang="en">Donald Mowbray Waite</persName>
+                    <floruit>1887-1950</floruit>
+                </person>
+                <person xml:id="Edmund_Grove">
+                    <persName xml:lang="en">Edmund Grove</persName>
+                    <floruit>c. 1664-1708</floruit>
+                </person>
+                <person xml:id="Arthur_Sansome_Preston">
+                    <persName xml:lang="en">Arthur Sansome Preston</persName>
+                </person>
+                <person xml:id="Martin_Sansome_Preston">
+                    <persName xml:lang="en">Martin Sansome Preston</persName>
+                    <floruit>?-1940</floruit>
+                </person>
+                <person xml:id="Russell_George_Roche">
+                    <persName xml:lang="en">Russell George Roche</persName>
+                    <floruit>1936-2012</floruit>
+                </person>
+                <person xml:id="George_Leo-Callewaert">
+                    <persName xml:lang="en">George Leo Callewaert</persName>
+                    <floruit>1942-2006</floruit>
+                </person>
+                <person xml:id="Benjamin_Gee">
+                    <persName xml:lang="en">Benjamin Gee</persName>
+                </person>
+            </listPerson>
+            
+            <listPerson>
+                <head xml:lang="en">Female Names</head>
+                <person xml:id="Martha_Jarvis">
+                    <persName xml:lang="en">Martha Jarvis</persName>
+                    <floruit>c. 1758-1823</floruit>
+                </person>
+                <person xml:id="Elizabeth_Fladgate">
+                    <persName xml:lang="en">Elizabeth Fladgate</persName>
+                    <floruit>c. 1762-1837</floruit>
+                </person>
+                <person xml:id="Eliza_Ayres">
+                    <persName xml:lang="en">Eliza Ayres</persName>
+                    <floruit>c. 1856-1950</floruit>
+                </person>
+                <person xml:id="Janette_Elizabeth_Waite">
+                    <persName xml:lang="en">Janette Elizabeth Waite</persName>
+                    <floruit>1905-1992</floruit>
+                </person>
+                <person xml:id="Esther_Grove">
+                    <persName xml:lang="en">Esther Grove</persName>
+                    <floruit>c. 1668-1731</floruit>
+                </person>
+                <person xml:id="Elizabeth_Stone">
+                    <persName xml:lang="en">Elizabeth Stone</persName>
+                    <floruit>c. 1727-1794</floruit>
+                </person>
+                <person xml:id="Sarah_Gee">
+                    <persName xml:lang="en">Sarah Gee</persName>
+                    <floruit>c. 1723-1808</floruit>
+                </person>
+                <person xml:id="Molly_Preston">
+                    <persName xml:lang="en">Molly Preston</persName>
+                    <floruit>?-1949</floruit>
+                </person>
+                <person xml:id="Elizabeth_Mary_Roche">
+                    <persName xml:lang="en">Elizabeth Mary Roche</persName>
+                    <floruit>1931-2015</floruit>
+                </person>
+            </listPerson>
+        </body>
+    </text>
+</TEI>

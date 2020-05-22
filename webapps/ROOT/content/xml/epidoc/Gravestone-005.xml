@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gravestone of Donald Mowbray Waite and Janette Elizabeth Waite</title>
+                <editor>S. Blackmore</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">Gravestone005</idno>
+                <date>30th April 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Penn, Buckinghamshire, England</settlement>
+                        <institution>Holy Trintiy Church</institution>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>This is a <material xml:id="Sandstone">stone (possibly sandstone)</material> <objectType>gravestone</objectType>
+                                        (<dimensions>
+                                            <width unit="cm" quantity="74">69 cm</width>
+                                            <height unit="cm" quantity="145">101 cm </height>
+                                            <depth unit="cm" quantity="8">10 cm</depth>
+                                        </dimensions>).</p>
+                                </support>
+                                <condition>The gravestone is in relatively good condition, all the text is visible and legible, although the grave is cleary dirty and has some moss growing on the top.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The text is <rs type="execution" key="carved">carved</rs> into the gravestone. 
+                                        The text is centred within a thin border and the gravestone itself has a simple rectangle shape with a rounded top, although the top corners curve inwards, making it a little decorative.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>The text varies in size, with the largest letters used for the names, dates and the occupation.</summary>
+                            <handNote>The text is a mixture of capitals, which is used for the names and occupation, and lower case, which is used for other information.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Churchyard of Holy Trinity Church, Penn</origPlace>
+                            <origDate type="century" xml:id="Twentieth">20th Century, c. 1992</origDate>
+                        </origin>
+                        <provenance type="found">in situ in the Churchyard of Holy Trinity Church, Penn</provenance>
+                        <provenance type="observed"> Still in situ in <desc xml:id="F">Section F</desc> of the Churchyard of Holy Trinity Church, Penn, Buckinghamshire, England.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage><language ident="EN">English</language></langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="Gravestone 005.jpg">
+                <desc>Photograph of the gravestone of Donald and Janette Waite by S. Blackmore 2020</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><persName xml:id="Donald_Mowbray_Waite">DONALD
+                    <lb n="2"/>MOWBRAY
+                    <lb n="3"/>WAITE</persName>
+                    <lb n="4"/><desc><date period="1887-1950" type="lifespan">1887 - 1950</date></desc>
+                    <lb n="5"/><desc><roleName role="Architect">ARCHITECT</roleName></desc>
+                    <lb n="6"/><listRelation><relation name="husband" xml:id="Husband"><desc>True husband</desc></relation><relation name="friend" xml:id="Friend"><desc>, true friend</desc></relation></listRelation>
+                    <lb n="7"/>of <persName><forename>Janette</forename></persName>
+                    <lb n="8"/><listRelation><relation name="father" xml:id="Father"><desc>Beloved father</desc></relation> <relation name="brother" xml:id="Brother"><desc>&amp; brother</desc></relation></listRelation>
+                    <lb n="9"/>And his <listRelation><relation name="wife" xml:id="Wife"><desc>devoted wife</desc></relation></listRelation>
+                    <lb n="10"/><persName xml:id="Janette_Elizabeth_Waite">JANETTE ELIZABETH</persName>
+                    <lb n="11"/><desc><date period="1905-1992" type="lifespan">1905-1992</date></desc>
+                </ab>
+            </div>
+            <div type="translation">
+                <p>Donald Mowbray Waite, 1887-1950, architect.
+                   True husband, true friend of Janette.
+                   Beloved father &amp; brother.
+                   And his devoted wife, Janette Elizabeth, 1905-1992.</p>
+            </div>
+            <div type="commentary">
+                <p>This twentieth century gravestone lists the names of <num xml:id="Two">two</num> occupants, Donald Mowbray Waite and Janette Elizabeth, who we must also assume takes the surname Waite. 
+                   Donald Mowbray Waite's occupation was that of an architect. 
+                   This tombstone is different from most of the others in that a birth year and death year are supplied, but no age is give, as well as specific date of birth or death.
+                   From the year of birth and death therefore, we can calculate that Donald Mowbray Waite lived to c. 63 years old and Janette Elizabeth lived to c. 87 years old.
+                   The grave is located next to the entrance to the Vineyard, an extension to the churchyard at the back, which is largely reserved for more modern graves, as well as a war memorial.</p>
+            </div>
+            <div type="bibliography">
+                <p>N/A</p>
+            </div>
+        </body>
+    </text>
+</TEI>

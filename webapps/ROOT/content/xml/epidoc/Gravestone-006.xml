@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gravestone of Edmund Grove and Esther Grove</title>
+                <editor>S. Blackmore</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">Gravestone006</idno>
+                <date>1st May 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Penn, Buckinghamshire, England</settlement>
+                        <institution>Holy Trintiy Church</institution>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>This is a <material xml:id="Unknown">stone </material> <objectType>gravestone</objectType>
+                                        (<dimensions>
+                                            <width unit="cm" quantity="74">70 cm</width>
+                                            <height unit="cm" quantity="145">85 cm </height>
+                                            <depth unit="cm" quantity="8">8 cm</depth>
+                                        </dimensions>).</p>
+                                </support>
+                                <condition>This gravestone is in the poorest condition out of the ten surveyed.
+                                           While the text is still visible and legible, the gravestone itself is very dirty and has been broken across the middle at some point in time, meaning that it has had to be reconstructed and held together with a metal frame.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The text is <rs type="execution" key="carved">carved</rs> onto the gravestone and is centred on the top two thirds of the gravestone. 
+                                        There is a single line border and the gravestone has three rounded sections on the top, one large one in the middle, and two smaller ones either side.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>The text varies in size, with the largest letters used for the names and the word 'Sacred' at the top of the gravestone, again using a calligraphy style font, much like the gravestone of Elizabeth Fladgate.
+                                     There are also italics used when giving the age of the person at death, as well as the relation between the occupants.
+                                     Much like before, where superscript has been used, in 'MR', 'TH', and 'ST', the letters appears with a dot underneath.</summary>
+                            <handNote>The text is all capitals.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Churchyard of Holy Trinity Church, Penn</origPlace>
+                            <origDate type="century" xml:id="Eighteenth">18th Century, c. 1731</origDate>
+                        </origin>
+                        <provenance type="found">in situ in the Churchyard of Holy Trinity Church, Penn</provenance>
+                        <provenance type="observed"> Still in situ in <desc xml:id="G">Section G</desc> of the Churchyard of Holy Trinity Church, Penn, Buckinghamshire, England.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage><language ident="EN">English</language></langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="Gravestone 006.jpg">
+                <desc>Photograph of the gravestone of Edmund and Esther Grove by S. Blackmore 2020</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>SACRED
+                    <lb n="2"/>TO
+                    <lb n="3"/>THE MEMORY OF
+                    <lb n="4"/><persName xml:id="Edmund_Grove">MR EDMUND GROVE</persName>
+                    <lb n="5"/><desc>WHO DIED <date type="death" when="1708-07-31"><date xml:id="July">JULY</date> 31ST 1708</date></desc>
+                    <lb n="6"/><date type="age" subtype="death" dur="P44Y">AGED 44 YEARS</date>
+                    <lb n="7"/>ALSO OF
+                    <lb n="8"/><persName xml:id="Esther_Grove">ESTHER</persName> <listRelation><relation name="wife" xml:id="Wife"><desc>HIS WIFE</desc></relation></listRelation>
+                    <lb n="9"/><desc>WHO DIED <date type="death" when="1731-03-20"><date xml:id="March">MARCH</date> 20TH 1731</date></desc>
+                    <lb n="10"/><date type="age" subtype="death" dur="P63Y">AGED 63 YEARS</date>
+                </ab>
+            </div>
+            <div type="translation">
+                <p>Sacred to the memory of Mr. Edmund Grove, who died July 31st 1708, aged 44 years.
+                   Also of Esther, his wife, who died March 20th 1731, aged 63 years.</p>
+            </div>
+            <div type="commentary">
+                <p>This eighteenth century gravestone lists the names of <num xml:id="Two">two</num> occupants, Edmund Grove and his wife Esther, who also presumably takes the surname Grove. 
+                   From the age and the date of death, we can calculate that Edmund Grove would have been born in c. 1664 and Esther would have been born in c. 1668. 
+                   Both the age of the occupants and the date at which this grave was set up makes it one of the oldest gravestones that is still standing in the churchyard.
+                   It is located in section G of the churchyard behind the church in a block of graves of which a majority are from the eighteenth century, belonging mainly to one family.
+                   This block is situated next to the path, opposite the tombs of prominent local families and figures.
+                   This gravestone again uses the common expression 'Sacred to the memory of', which was commonly used in this period.</p>
+            </div>
+            <div type="bibliography">
+                <p>N/A</p>
+            </div>
+        </body>
+    </text>
+</TEI>

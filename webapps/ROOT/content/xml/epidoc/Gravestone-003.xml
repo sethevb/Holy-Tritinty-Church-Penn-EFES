@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gravestone of F. J. Gibbs</title>
+                <editor>S. Blackmore</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">Gravestone003</idno>
+                <date>30th April 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Penn, Buckinghamshire, England</settlement>
+                        <institution>Holy Trintiy Church</institution>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>This is a <material xml:id="Limestone">stone (possibly limestone or marble)</material> <objectType>gravestone</objectType>
+                                        (<dimensions>
+                                            <width unit="cm" quantity="74">38 cm</width>
+                                            <height unit="cm" quantity="145">88 cm </height>
+                                            <depth unit="cm" quantity="8">8 cm</depth>
+                                        </dimensions>).</p>
+                                </support>
+                                <condition>Very good condition, all the text is visible and legible, as well as the detailed decoration</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The text is <rs type="execution" key="carved">carved</rs> onto the gravestone and is centred on the second quarter from the top. There is no border and the gravestone itself has a simple rectangle shape with a rounded top.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>The text varies in size, with the largest letters used for the names.</summary>
+                            <handNote>The text is all capitals.</handNote>
+                        </handDesc>
+                        <decoDesc><decoNote>There are two pieces of decoration here other than the text. 
+                                            First, above the text, is the emblem of the Royal Army Service Corps, of which Driver Gibbs was a art. 
+                                            Second, below the text, filling much of the space between the text and the ground is a crucifix.</decoNote></decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Churchyard of Holy Trinity Church, Penn</origPlace>
+                            <origDate type="century" xml:id="Twentieth">20th Century, c. 1919</origDate>
+                        </origin>
+                        <provenance type="found">in situ in the Churchyard of Holy Trinity Church, Penn</provenance>
+                        <provenance type="observed"> Still in situ in <desc xml:id="A">Section A</desc> of the Churchyard of Holy Trinity Church, Penn, Buckinghamshire, England.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage><language ident="EN">English</language></langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="Gravestone 003.jpg">
+                <desc>Photograph of the gravestone of F. J. Gibbs by S. Blackmore 2020</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><desc><idno type="ServiceNumber">T/277540</idno> <roleName type="military">DRIVER</roleName></desc>
+                    <lb n="2"/><persName xml:id="F.J._Gibbs">F. J. GIBBS</persName>
+                    <lb n="3"/><orgName>ROYAL ARMY SERVICE COPRS</orgName>
+                    <lb n="4"/><date type="death" when="1919-01-07">7TH <date xml:id="January">JANUARY</date> 1919</date> <date type="age" subtype="death" dur="P27Y">AGE 27</date>
+                </ab>
+            </div>
+            <div type="translation">
+                <p>T/277540 Driver F. J. Gibbs, Royal Army Service Corps.
+                   7th January 1919, age 27.Sacred to the memory of James Jarvis of this parish, baker. Died May the 18th 1826, aged 58 years. 
+                   </p>
+            </div>
+            <div type="commentary">
+                <p>This twentieth century gravestone lists the name of <num xml:id="One">one</num> occupant, F. J. Gibbs.
+                   We can learn his full name, Frederick John Gibbs, from the fact that this grave is managed by the <orgName>Commonwealth War Graves Commission</orgName> (<idno type="URL">https://www.cwgc.org/find-war-dead/casualty/343723/gibbs,-frederick-john/</idno>), along with three other graves in this churchyard, however we do not know were he died, as it was also after the end of World War I.
+                   From the age and the date of death, we can calculate that Frederick Gibbs was born c. 1892.
+                   The date of death is also interesting as he was a serviceman who died after the end of World War I.
+                   This grave is located next to the lych gate (the main entrance to the churchyard), a prominent position normally reserved for clergy or members of the church staff.</p>
+            </div>
+            <div type="bibliography">
+                <p><idno type="url">Commonwealth War Graves Comission (2020) 'Gibbs, Frederick John', https://www.cwgc.org/find-war-dead/casualty/343723/gibbs,-frederick-john/ (accessed 30th April 2020).</idno></p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
